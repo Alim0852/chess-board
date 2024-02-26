@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.main-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* height: 100vh
+border: 1px solid;
+width: 100% */
+}
+
+.main-row .a {
+  color: rgb(0, 0, 0);
+  height: 80px;
+  border: 1px solid;
+  width: 90px;
+  background-color: rgb(252, 246, 240);
+  text-align: center;
+}
+.main-row .b {
+  color: rgb(0, 0, 0);
+  height: 80px;
+  border: 1px solid;
+  width: 90px;
+  background-color: black;
+  text-align: center;
+}
+.main-row .a p {
+  font-size: 3.5rem;
+}
+.main-row .b p {
+  font-size: 3.5rem;
+  color: white;
+}
